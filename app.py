@@ -30,7 +30,7 @@ def infer(raw_image):
 
 title = "Dehazer"
 description = f""
-examples = [We use a mixed dataset to train the model, allowing the trained model to work better on real hazy images. To allow the model to process high-resolution images more efficiently and effectively, we extend it to the [MCT](https://github.com/IDKiro/MCT) variant.
+examples = [
 		["examples/1.jpg"],
 		["examples/2.jpg"],
 		["examples/3.jpg"],
